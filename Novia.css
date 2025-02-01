@@ -1,0 +1,126 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+header h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    word-spacing:8px;
+    color:#ff0838 ;
+}
+
+body {
+    background:pink;
+}
+
+header, .main {
+    width:70%;
+    margin:20px auto;
+    padding: 10px;
+    background-color:aliceblue;
+}
+header{
+    overflow: hidden;
+}
+header ul{
+    list-style:none;
+}
+header ul li {
+    float:left;
+    width:10%;
+    border: 1px solid #337aac;
+}
+header ul a {
+    padding:10px;
+    display:block;
+    text-decoration:none;
+    color:white;
+    background:aqua;
+    font-weight: bold;
+}
+ol{
+    list-style-position: inside;
+}
+
+.main img{
+    float:left;
+    width:20%;
+}
+.main p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:#5d6d7e;
+}
+
+.main h2{
+    text-transform:capitalize;
+    text-decoration:underline;
+}
+ol {
+    list-style-type: upper-roman;
+}
+
+a:hover {
+    background-color: #3498db;
+}
+a:active {
+    background-color: #2874a6;
+}
+
+wrapper, img {
+    margin:10px;
+    padding:10px;
+}
+
+aside {
+    background-color: aliceblue;
+    width:100%;
+    margin: 50px 0px;
+}
+
+.lista, .formulario {
+    width:45%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin:10px;
+}
+
+input {
+    margin-bottom: 20px;
+    box-sizing:border-box;
+    display:block;
+}
+
+li, .lista h3 {
+    margin-bottom:10px;
+}
+
+form {
+    border: 1px solid #b2babb;
+    padding: 20px;
+    background-color: #eaeded;
+}
+input:focus{
+    border-color: red;
+    outline:none;
+}
+footer {
+    margin:40px;
+    padding: 8px;
+    width: 50%;
+    text-align:center;
+    background-color: black;
+    color:white;
+    margin:0 auto;
+    margin-bottom: 30px;
+}
+
